@@ -68,7 +68,7 @@ where CUST_MARITAL_STATUS = 'Mar-AF'
 
 update G5_CUSTOMERS
 set CUST_MARITAL_STATUS = 'widowed'
-where CUST_MARITAL_STATUS = 'Widowed' OR CUST_MARITAL_STATUS = 'Widow'
+where CUST_MARITAL_STATUS = 'Widowed' OR CUST_MARITAL_STATUS = 'widow'
 
 update G5_CUSTOMERS
 set CUST_MARITAL_STATUS = 'separated'
